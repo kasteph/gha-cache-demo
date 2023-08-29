@@ -1,11 +1,5 @@
-[workspace]
-members = [
-    "adder",
-    "newer",
-]
-
 [package]
-name = "ci-test"
+name = "newer"
 version = "0.1.0"
 edition = "2021"
 
