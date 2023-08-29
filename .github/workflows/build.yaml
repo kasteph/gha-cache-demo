@@ -3,6 +3,8 @@ name: Task - Build Rust
 
 on:
   push:
+    branches: [ main ]
+  pull_request:
 
 jobs:
   rust_build:
